@@ -26,7 +26,7 @@ encText = urllib.parse.quote(input)  #검색어입력
 
 display = "30"  #고정
 cont = 0
-opencsv = open("output.csv",'w')
+# opencsv = open("output.csv",'w')
 f = csv.writer(open("test.csv", "w+"))
 
 def total():
